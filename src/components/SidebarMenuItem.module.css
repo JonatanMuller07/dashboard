@@ -1,0 +1,5 @@
+@reference "tailwindcss";
+
+.active-link {
+    @apply bg-blue-800;
+}
