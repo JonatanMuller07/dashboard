@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { MdCatchingPokemon } from "react-icons/md";
 import { SidebarMenuItem } from "./SidebarMenuItem";
-import { IoBrowsersOutline, IoCalculator, IoLogoReact } from "react-icons/io5";
+import { IoBrowsersOutline, IoCalculator, IoHeartOutline, IoLogoReact } from "react-icons/io5";
 
 const menuItems = [
     {
@@ -21,6 +21,12 @@ const menuItems = [
         icon: <MdCatchingPokemon size={40} />,
         title: 'Pokemons',
         subTitle: 'Generación estática'
+    },
+    {
+        path: '/dashboard/favorites',
+        icon: <IoHeartOutline size={40} />,
+        title: 'Favoritos',
+        subTitle: 'Global state'
     }
 ]
 
