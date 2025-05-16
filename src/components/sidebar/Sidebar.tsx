@@ -44,7 +44,7 @@ export const Sidebar = () => {
                 </h1>
                 <p className="text-slate-500 text-sm">Manage your actions and activities</p>
             </div>
-            <div id="profile" className="px-6 py-10">
+            <div id="profile" className="px-6 py-6">
                 <p className="text-slate-500">Welcome back,</p>
                 <a href="#" className="inline-flex space-x-2 items-center">
                     <span>
