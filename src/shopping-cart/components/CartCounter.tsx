@@ -27,6 +27,7 @@ const CartCounter = ({ value = 10 }: CartCounterProps) => {
     // }, [dispatch, value])
     
     useEffect(() => {
+        console.log({value})
         getApiCounter()
             .then(({count}) => dispatch(initCounterState(count)))
     }, [dispatch])

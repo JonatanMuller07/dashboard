@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { PokemonsResponse, SimplePokemon, PokemonGrid } from "@/pokemons";
+import { PokemonGrid } from "@/pokemons";
 
 export const metadata: Metadata = {
     title: "Favoritos",
